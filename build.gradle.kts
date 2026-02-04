@@ -10,6 +10,7 @@ version = "0.0.1-SNAPSHOT"
 description = "Demo project for Spring Boot"
 
 java {
+	sourceCompatibility = JavaVersion.VERSION_11
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(21)
 	}
